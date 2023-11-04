@@ -1,0 +1,73 @@
+.navbar {
+    /* background: red; */
+    width: 100%;
+    height: 70px;
+    margin: 0;
+  }
+  
+  .navbar .con-1 {
+    margin: auto;
+    display: flex;
+    width: 94%;
+    align-items: center;
+  
+    justify-content: space-between;
+    /* border: 1px solid rgb(36, 0, 128); */
+    background:transparent;
+    z-index: 10;
+  }
+  .navbar .con-1-l {
+    /* border: 1px solid green; */
+  }
+  .navbar .con-1-r {
+    /* border: 1px solid rgb(254, 233, 6); */
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .navbar > div img {
+    width: 170px;
+  
+  }
+  
+  /* Update your CSS with the following rules */
+  .navbar {
+    background: transparent;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .navbar.scrolled {
+      background: white;
+      color: black;
+  }
+  
+  .navbar .con-1-r a {
+      text-decoration: none;
+      color: inherit;
+      position: relative;
+  }
+  
+  .navbar .con-1-r a::before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: black;
+      transition: width 0.3s;
+  }
+  
+  .navbar .con-1-r a:hover::before,
+  .navbar .con-1-r a.active::before {
+      width: 100%;
+  }
+  
