@@ -4,6 +4,8 @@ import AllRoutes from './AllRoutes';
 import NavBar from './Components/NavBar';
 import HomeAdd from './Components/HomeAdd';
 import Home from './Pages/Home';
+import Footer from './Components/Footer';
+
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <NavBar/>
      
       <AllRoutes/>
+
+      <Footer/>
     </div>
   );
 }
