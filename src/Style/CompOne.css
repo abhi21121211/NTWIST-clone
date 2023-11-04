@@ -1,0 +1,27 @@
+
+/* .homeCon-1{
+    
+    width: 100%;
+    margin: auto;
+} */
+.compOne{
+    width: 100%;
+    margin: 35px 0;
+    align-items: center;
+    justify-content: center;
+display: flex;
+/* border:  1px solid red; */
+
+}
+.compOne div{
+    width: 47%;
+    /* border:  1px solid black; */
+    
+    }
+    .compOne img{
+        width: 100%;
+    }
+    .compOne div h1{
+        color:#ff3a2d;
+        font-size: 50px;
+    }
