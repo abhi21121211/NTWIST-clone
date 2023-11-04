@@ -31,7 +31,7 @@
    font-weight:600;
    font-size: large;
    width:150px;
-   
+   cursor:pointer;
 }
 .homeadd div img{
     width: 100%;

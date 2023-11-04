@@ -31,9 +31,9 @@ function Footer() {
         <p style={{color:"#6f7f92", padding:"10px opx"}}>9650 20 Ave NW, Edmonton, AB, T6N 1G1, Canada</p>
         <div  style={{ padding: '10px 0px' }}>
            
-            <i style={{color:"white" ,fontSize:"20px", padding:"0px 10px"}}><FiTwitter/></i>
+            <i style={{color:"white" ,fontSize:"20px", padding:"0px 10px",cursor:"pointer"}}><FiTwitter/></i>
 
-            <i style={{color:"white" ,fontSize:"20px",padding:"0px 10px"}}><FiLinkedin/></i>
+            <i style={{color:"white" ,fontSize:"20px",padding:"0px 10px" ,cursor:"pointer"}}><FiLinkedin/></i>
             
         </div>
         <p style={{color:"#6f7f92", padding:"10px opx"}}>© 2022. Ntwist Inc.</p>
