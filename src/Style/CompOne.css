@@ -1,27 +1,37 @@
-
-/* .homeCon-1{
-    
-    width: 100%;
-    margin: auto;
-} */
-.compOne{
+/* Default styles */
+.compOne {
     width: 100%;
     margin: 35px 0;
     align-items: center;
     justify-content: center;
-display: flex;
-/* border:  1px solid red; */
-
+    display: flex;
 }
-.compOne div{
+
+.compOne div {
     width: 47%;
-    /* border:  1px solid black; */
-    
+}
+
+.compOne img {
+    width: 100%;
+}
+
+.compOne div h1 {
+    color: #ff3a2d;
+    font-size: 50px;
+}
+
+
+@media (max-width: 768px) {
+    .compOne {
+        flex-direction: column; /* Stack elements vertically */
+        margin: 20px 0;
     }
-    .compOne img{
-        width: 100%;
+   
+    .compOne div {
+        width: 90%; /* Full width for both image and content */
     }
-    .compOne div h1{
-        color:#ff3a2d;
-        font-size: 50px;
+
+    .compOne div h1 {
+        font-size: 36px; /* Reduce font size for smaller screens */
     }
+}
